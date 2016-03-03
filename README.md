@@ -6,6 +6,8 @@ This is a sample of the android Storage Access Framework, but it currently fails
 
 The rename button will work when using files on internal storage.
 
+This is discussed here: http://stackoverflow.com/questions/35781369/renaming-document-in-google-docs-using-android-storage-access-framework-results
+
 To reproduce the error:
 
 1. Install this app and google drive/docs app
