@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.safexample.MainActivity">
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="save"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/rename"
+        android:orderInCategory="100"
+        android:title="rename"
+        app:showAsAction="ifRoom" />
+</menu>
