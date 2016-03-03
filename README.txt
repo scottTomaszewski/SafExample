@@ -1,6 +1,20 @@
 This is a sample of the android Storage Access Framework, but it currently fails to support rename on Google Docs Uri's.
 
-Here is the error: 
+* The Floating Action Button will launch the storage access framework UI
+* The Options menu has save support (only works after opening file)
+* The Options menu has a "rename" item, but it crashes when using a google doc file (only runs after opening file)
+
+The rename button will work when using files on internal storage.
+
+To reproduce the error:
+
+1. Install this app and google drive/docs app
+1. Open SafExample
+1. Hit the Floating Action Button to open Storage Access Framework looking for text files
+1. Open a txt file
+1. Click "Rename" in the options menu once the txt file loads
+
+At this point it crashes.  Here is the error: 
 
 ```
 03-03 14:10:41.529 29069-29069/com.example.safexample W/grok: java.io.FileNotFoundException
